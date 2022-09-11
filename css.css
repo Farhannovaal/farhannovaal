@@ -25,8 +25,8 @@ body{
     }
 
     header h2 a:hover {
-        color: navy;
-        opacity: 50%;
+        color: rgba(21, 176, 95, 0.8);
+       
     }
 
     header ul{
@@ -45,7 +45,7 @@ body{
     }
 
     header ul li a:hover{
-        color: navy;
+        color: rgba(30, 140, 167, 0.8);
     }
 
     .header-con{
@@ -78,7 +78,7 @@ body{
         left: -300px;
         bottom: 0;
         padding:0;
-        background-color: rgba(245, 40, 186, 0.8);
+        background-color: rrgba(21, 176, 95, 0.8);
     }
 
     .sidebar ul li a{
@@ -108,7 +108,7 @@ body{
         }
 
         .banner{
-            background-color:blue;
+            background-color:rgba(21, 176, 95, 0.8);
             padding-top: 100px;
         }
 
@@ -136,7 +136,7 @@ body{
             bottom:0;
             width:120px;
             height:2px;
-            background-color: rgb(122, 112, 112);
+            background-color: rgba(30, 140, 167, 0.8)
             left:  calc(50% - 60px);
         }
 
@@ -159,26 +159,31 @@ body{
 
 
         #skill{
-            background: grey;
+            background: rgba(21, 176, 95, 0.8);
+            color: white;
+            text-align: ;
         }
 
         #skill .bar{
-            height: 30px;
-            border: 1px solid #ddd;
-            background-color: white;
+            height: 20px;
+            background-color: rgba(21, 176, 95, 0.8)e;
             margin: 10px 0 30px 0;
+            border-radius: 20px;
 
         }
 
         .bar .nilai{
             height: 30px;
             display: inline-block;
-            background-color: red;
+            background-color:rgba(2, 92, 116, 0.93);
+            border-radius: 20px;
         }
 
         .bar  span{
             color:white;
             text-align: center;
+            font-weight: bold;
+            padding-top: 10px;
         }
 
         .html{
@@ -213,6 +218,7 @@ body{
 
         .col-4 img{
             width: 100%;
+            border-radius: 10px;
         }
 
         .col-4 a:hover img{
@@ -224,21 +230,35 @@ body{
         }
 
         .col-3 {
-            width: 33.33%;
+            width: 32.30%;
             box-sizing: border-box;
             float: left;
             text-align: center;
-            border: 1px solid #ddd;
-            padding: 10px;
+            border: 1px solid black;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 5px;
         }
 
         .col-3 h4{
             padding-bottom: 10px;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid black;
             margin-bottom: 15px;
         }
         a{
             text-decoration: none;
+        }
+
+        .col-2{
+            width: 5%;
+            float: left;
+            padding: 10px;
+            margin-left: 50px;
+            transform: translateX(300%);
+        }
+
+        #tools img{
+            width: 100%;
         }
         footer{
             background-color: black;
@@ -265,9 +285,15 @@ body{
                 width: 100%;
                 text-align: center;
             } #Contact {
-                margin-bottom: 250px;
+                margin-bottom: 25 0px;
             }footer{
                 display: none;
+            }.col-2{
+                width: 5%;
+                transform: translate(0,0);
+                margin-top: 20px;
+            }#tools{
+                margin-bottom: 50px;
             }
             }
          
