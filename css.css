@@ -264,6 +264,10 @@ body{
             }.col-3{
                 width: 100%;
                 text-align: center;
+            } #Contact {
+                margin-bottom: 250px;
+            }footer{
+                display: none;
             }
             }
          
