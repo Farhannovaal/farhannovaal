@@ -253,8 +253,7 @@ body{
         }
 
         #tools img{
-            width: 50%;
-            text-align: center;
+            width: 20%;
         }
         footer{
             background-color: black;
@@ -301,8 +300,10 @@ body{
                 width: 20%;
                 transform: translate(0,0);
                 margin-top: 20px;
-            }#tools{
-                margin-bottom: 50px;
+            }#tools img{
+                width: 20%;
+                text-align: center;
+                margin-left: 40%;
             }
             }
          
