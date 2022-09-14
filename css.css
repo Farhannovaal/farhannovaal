@@ -11,7 +11,6 @@ body{
     }
 
     header h2{
-        
         float: left;
         padding: 20px 24px;
         text-transform:uppercase;
@@ -136,7 +135,7 @@ body{
             bottom:0;
             width:120px;
             height:2px;
-            background-color: rgba(30, 140, 167, 0.8)
+            background-color: rgba(30, 140, 167, 0.8);
             left:  calc(50% - 60px);
         }
 
@@ -220,8 +219,10 @@ body{
             border-radius: 10px;
         }
 
-        .col-4 a:hover img{
+        .col-4 img:hover{
             transform: scale(1.2);
+            opacity: 0.5;
+            cursor: pointer;
         }
 
         .col-4 a{
@@ -229,7 +230,7 @@ body{
         }
 
         .col-3 {
-            width: 32.30%;
+            width: 30.30%;
             box-sizing: border-box;
             float: left;
             text-align: center;
@@ -281,6 +282,16 @@ body{
         }
         .button-header button:hover{
             background-color: aquamarine;
+        }
+
+        .jumbo{
+            width: 50%;
+            margin-left: 25%;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 2x solid rgb(58, 56, 56);
+            box-shadow: 2px 2px 2px black;
+            
         }
         @media (max-width: 768px){
             .mobile{
