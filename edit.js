@@ -27,7 +27,7 @@ let words = '';
 
 
 
-const container = document.querySelector('.container-Gambar');
+const container = document.querySelector('.container-gambar');
 const jumbo = document.querySelector('.jumbo');
 const semua = document.querySelectorAll('.thumb');
 
