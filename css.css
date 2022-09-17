@@ -123,10 +123,6 @@ body{
             font-family: sans-serif;
         }
 
-        .banner-left{
-            padding-left:50px
-        }
-
         section h3 {
             padding-bottom:20px;
             text-align:center;
@@ -223,7 +219,7 @@ body{
             font-size: 25px;
             font-weight: normal;
             display: flex;
-            background-color: rgb(240, 238, 238)240, 238, 238);
+            background-color: rgb(240, 238, 238);
             align-items: center;
             border-radius: 5px;
             box-shadow: 3px 3px 3px lightgray;
@@ -269,6 +265,23 @@ body{
             border-radius: 10px;
         }
 
+
+        /* punya portofoolio  */
+
+        .pic-2{
+            position: relative;
+            height: 230px;
+            text-align: center;
+        }
+        .pic-2 img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+
+        /* SAMPE SINI */
+/* 
         .pic::before{
             content: "PORTOFOLIO";
             position: absolute;
@@ -300,7 +313,7 @@ body{
         .pic:hover::before{
             margin-top: 0;
             opacity: 1;
-        }
+        } */
 
 
 
@@ -431,6 +444,8 @@ body{
                 margin-left: 40%;
             }.intro-about{
                 margin-top: 50px;
+            }.navbar-porto{
+                display: none;
             }
             }
             @media (max-width: 992px){
