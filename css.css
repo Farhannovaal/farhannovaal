@@ -58,8 +58,7 @@ body{
         clear:both;
     }
     .img-index h2{
-        
-        width: 70%;
+        width: 100%;
         border-radius: 10px;
         padding-left: 10px;
         color: black;
@@ -88,6 +87,7 @@ body{
     .sidebar{
         position: fixed;
         width: 300px;
+        height: auto;
         top: 0;
         left: -300px;
         bottom: 0;
@@ -103,6 +103,7 @@ body{
     .sidebar ul li {
         padding: 50px;
         border: 1px solid white;
+        list-style: none;
     }
     .sidebar ul li:hover{
         background-color: rgb(59, 48, 48);
@@ -510,6 +511,8 @@ body{
                 width: 20%;
             }.banner{
                 width: 100%;
+            }.navbar-porto{
+                width: 90%;
             }
             }
             @media (max-width: 992px){
@@ -536,6 +539,8 @@ body{
                     margin-left: 40%;
                 }.intro-about{
                     margin-top: 50px;
+                }.banner{
+                    width:100%;
                 }
                 }
          
