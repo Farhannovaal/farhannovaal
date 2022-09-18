@@ -57,6 +57,21 @@ body{
         content: "";
         clear:both;
     }
+    .img-index h2{
+        
+        width: 70%;
+        border-radius: 10px;
+        padding-left: 10px;
+        color: black;
+        background-color: rgb(121, 176, 95, 0.);
+        box-shadow: 1px 1px 1px black;
+    }.img-index h4{
+        color: white;
+    }.img-index span{
+        color: black;
+        font-weight: bold;
+    }
+
     .mobile{
         float:right;
         display:none;
@@ -97,7 +112,7 @@ body{
     }
 
         .banner img{
-            width:150px;
+            width:25%;
             border-radius:10px;
             box-shadow: 0px 2px 2px black;
         }
@@ -109,7 +124,8 @@ body{
 
         .banner{
             background-color:rgba(21, 176, 95, 0.8);
-            padding-top: 100px;
+            padding-top: 60px;
+            width: 100%;
         }
         .greeting h2{
             font-size: 25px;
@@ -252,8 +268,8 @@ body{
 
         }
         .navbar-porto{
-            height: 60px;
-            width: 90%;
+            height: auto;
+            width: 100%;
             text-align: center;
             margin: 0 auto 20px auto;
             position: relative;
@@ -275,7 +291,8 @@ body{
         }
         .navbar-porto label{
             display: inline-block;
-            height: 100%;
+            width: 100%;
+            height: auto;
             padding: 0 10px;
             line-height: 60px;
             margin: 0 50px;
@@ -374,7 +391,7 @@ body{
             border: 1px solid black;
             border-radius: 6px;
             padding: 15px;
-            margin: 5px;
+            margin-bottom: 5px;
         }
 
         .col-3 h4{
@@ -421,15 +438,6 @@ body{
             background-color: aquamarine;
         }
 
-        .jumbo{
-            width: 30%;
-            transform: translateX(120%);
-            margin-bottom: 20px;
-            border-radius: 10px;
-            border: 2x solid rgb(58, 56, 56);
-            box-shadow: 2px 2px 2px black;
-            
-        }
 
         @keyframes fadeIn{
             to {
@@ -456,6 +464,7 @@ body{
             text-align: center;
             color: white;
             font-size: 15px
+            
 
         }
         .intro-about{
@@ -499,6 +508,8 @@ body{
                 font-size: 15px;
                 margin: 2px 2px;
                 width: 20%;
+            }.banner{
+                width: 100%;
             }
             }
             @media (max-width: 992px){
