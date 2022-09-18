@@ -211,6 +211,46 @@ body{
         input{
             display: none;
         }
+        #check1:checked ~.container1 .container-gambar .pic-2{
+            opacity: 1;
+            transform: scale(1);
+            position: relative;
+            transition: .5s;
+        }
+        #check2:checked ~ .container1 .container-gambar .foto2{
+            opacity: 1;
+            transform: scale(1);
+            position: relative;
+            
+        }
+        #check2:checked ~ .container1 .container-gambar .foto1,
+        #check2:checked ~ .container1 .container-gambar .foto3{
+            opacity: 0;
+            transform: scale(0);
+            position: absolute;
+           
+
+        }
+        #check1:checked ~.container1 .container-gambar .pic-2{
+            opacity: 1;
+            transform: scale(1);
+            position: relative;
+            transition: .5s;
+        }
+        #check3:checked ~ .container1 .container-gambar .foto3{
+            opacity: 1;
+            transform: scale(1);
+            position: relative;
+            
+        }
+        #check3:checked ~ .container1 .container-gambar .foto2,
+        #check3:checked ~ .container1 .container-gambar .foto3{
+            opacity: 0;
+            transform: scale(0);
+            position: absolute;
+           
+
+        }
         .navbar-porto{
             height: 60px;
             width: 90%;
@@ -273,6 +313,7 @@ body{
             position: relative;
             height: 230px;
             text-align: center;
+            transition: .5s;
         }
         .pic-2 img{
             width: 100%;
@@ -301,6 +342,7 @@ body{
             opacity: 0;
             transition: .3s;
             transition-delay: .2s;
+            z-index: 1;
         }
         .pic::after{
             content: "";
