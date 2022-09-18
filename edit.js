@@ -22,7 +22,7 @@ let words = '';
 
     setTimeout(Myjob,300);
 
-    return;
+    
 })();
 
 
@@ -48,8 +48,6 @@ container.addEventListener('click', function(e){
         })
 
         e.target.classList.add('active');
-    }
-
-
+    } 
 
 });
