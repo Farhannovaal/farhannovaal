@@ -58,9 +58,10 @@ body{
         clear:both;
     }
     .img-index h2{
-        width: 100%;
+        width: 80%;
         border-radius: 10px;
-        padding-left: 10px;
+
+        padding-left:;
         color: black;
         background-color: rgb(121, 176, 95, 0.);
         box-shadow: 1px 1px 1px black;
@@ -513,6 +514,10 @@ body{
                 width: 100%;
             }.navbar-porto{
                 width: 90%;
+            }.img-index {
+                width: 80%;
+            }.img-index span{
+                font-size: 20px;
             }
             }
             @media (max-width: 992px){
@@ -541,6 +546,10 @@ body{
                     margin-top: 50px;
                 }.banner{
                     width:100%;
+                }.img-index {
+                    width: 80%;
+                }.img-index span{
+                    font-size: 20px;
                 }
                 }
          
