@@ -80,18 +80,25 @@ body{
         left: -300px;
         bottom: 0;
         padding:0;
-        background-color: rgba(21, 21, 22, 0.8);
+        background-color: rgb(255, 255, 255);
         z-index: 1;
+        border-radius: 10px;
+        opacity: 1;
+        transition: 0.5s;
+  
+    }.sidebar ul{
+        margin-top: 50%;
     }
 
     .sidebar ul li a{
-        color:white;
+        color:black;
     }
 
     .sidebar ul li {
-        padding: 50px;
-        border: 1px solid white;
+        padding: 15px;
         list-style: none;
+
+        
     }
     .sidebar ul li:hover{
         background-color: rgb(59, 48, 48);
@@ -317,18 +324,18 @@ body{
 
         /* punya portofoolio  */
 
-        .pic-2{
+        .pic2{
             position: relative;
             height: 230px;
             text-align: center;
             transition: .5s;
         }
-        .pic-2 img{
+        .pic2 img{
             width: 100%;
             height: 100%;
             border-radius: 10px;
         }
-        .pic-2:hover{
+        .pic2:hover{
             transition: 0.5s;
             transform: scale(1.2);
             opacity: 0.5;
@@ -465,7 +472,13 @@ body{
 
         @media (max-width: 768px){
             .mobile{
-                display:block;
+                position:fixed;
+                left: 406px;
+            }.header-con{
+                position: fixed;
+                background-color: white;
+                width: 100%;
+                z-index: 2;
             } header ul{
                 display:none;
             }.container-gambar{
@@ -501,6 +514,8 @@ body{
                 width: 100%;
            }.img-index span{
              width: 90%;
+           }.sidebar{
+            width: 300px;
            }
             }
             @media (max-width: 992px){
