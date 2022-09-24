@@ -473,13 +473,16 @@ body{
         @media (max-width: 768px){
             .mobile{
                 position:fixed;
-                left: 406px;
+                left: 80%;
             }.header-con{
                 position: fixed;
                 background-color: white;
-                width: 100%;
+                width: 109%;
                 z-index: 2;
-            } header ul{
+            }.header-con h2{
+                font-size: 16px;
+            }
+            header ul{
                 display:none;
             }.container-gambar{
                     display: grid;
