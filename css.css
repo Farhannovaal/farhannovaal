@@ -12,7 +12,7 @@ body{
 
     header h2{
         float: left;
-        padding: 20px 54px;
+        padding: 20px 70px;
         text-transform:uppercase;
         font-weight:bold;
         font-size: 25px;
@@ -21,7 +21,7 @@ body{
 
     header h2 a {
         text-decoration: none;
-        color: rgb(166, 6, 187);
+        color: rgb(226, 43, 186);
     }
 
     header h2 a:hover {
@@ -38,19 +38,23 @@ body{
         display: inline-block;
         position: relative;
        right: 100px;
-        font-weight: bold;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         opacity: 80%;
     }
 
     header ul li a {
-        color: rgb(100, 98, 98);
+        background-color: rgb(226, 43, 186);
         text-decoration: none;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
         
     }
 
     header ul li a:hover{
-        color: black;
+        background-color: grey;
         opacity: 100%;
+        color: white;
         
     }
 
@@ -64,14 +68,10 @@ body{
         content: "";
         clear:both;
     }
-    
-
     .mobile{
         float:right;
-        background-color: gray;
-        padding:18px;
-        border: 1px solid gray;
-        margin-top: 15px;
+        padding:10px;
+        margin-top: 10px;
         display: none;
     }
 
@@ -132,30 +132,38 @@ body{
         }
 
         .banner{
+            position: relative;
+            left: 5%;
             background-color:rgb(92, 15, 79);
-            width: 100%;
+            width: 90%;
             padding: 50px;
             height: 300px;
+            border-radius: 10px;
+            margin-top: 20px;
         }.banner span{
             color: rgb(226, 43, 186);
         }.banner h4{
             color: blueviolet;
         }
-        .greeting p{
-            font-size: 18px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-style: oblique;
+    .header{
+            width: 100%;
+        }.greeting{
+            width: 50%;
             float: left;
-            margin: 0;
-            padding: 0;
+        }.img-index{
+            float: right;
             position: relative;
-            bottom: 100px;
-            color: white;
+            bottom: 200px;
+            left: 500px;
+        }.greeting p{
+            font-size: 18px;
+            font-weight: bold;
         }
+        
 
 
         .banner h2, .banner p {
-            color: black;
+            color: white;
             font-family: sans-serif;
         }
 
@@ -195,28 +203,33 @@ body{
         }
 
 
-        #skill{
-            background: rgba(21, 176, 95, 0.8);
+        .skill{
+            background-color: rgb(92, 15, 79);
             color: white;
+            width: 100%;
+            padding: 20px;
+            border-radius: 30px;
+            text-align: center;
         }
 
         #skill .bar{
             height: 30px;
-            background-color: rgba(21, 176, 95, 0.8);
+            background-color: rgb(92, 15, 79);
             margin: 10px 0 30px 0;
             border-radius: 20px;
+            width: 100%;
 
         }
 
         .bar .nilai{
             height: 30px;
             display: inline-block;
-            background-color:rgba(2, 92, 116, 0.93);
+            background-color:rgba(240, 244, 245, 0.93);
             border-radius: 20px;
         }
 
         .bar  span{
-            color:white;
+            color:black;
             text-align: center;
             font-weight: bold;
 
@@ -325,20 +338,61 @@ body{
             width: 90%;
             margin: auto;
             display: grid;
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(3,1fr);
             grid-gap: 30px 10px;
+            margin-top: 50px;
+            background-color: rgba(92, 15, 79);
+            padding: 50px;
+            height: auto;
+            border-radius: 20px;
         }
         .pic{
             position: relative;
-            height: 230px;
+            height: 300px;
             text-align: center;
+            width: 300px;
+            left: 10%;
+            box-shadow: 2px 2px 2px 2px white;
+            border-radius: 10px;
         }
         .pic img{
             width: 100%;
             height: 100%;
             border-radius: 10px;
+        }#portofolio p{
+            font-size: 23px;
+            text-align: center;
+            background-color: rgba(226, 43, 186);
+            width: 200px;
+            position: relative;
+            left: 420px;
+            border-radius: 10px;
+            color: white;
+            box-shadow: 2px 2px 2px  grey;
+            margin-top: 20px;
+        }#portofolio a {
+            color: white;
+        }#portofolio p:hover{
+            background-color: grey;
+        }.contact{
+            width: 90%;
+            background-color: rgba(92, 15, 79);
+            position: relative;
+            left: 5%;
+            padding: 20px;
+            border-radius: 10px;
+        }.alamat{
+            position: relative;
+            left: 5%;
+            color: black;
+            margin-right: 5px;
+            background-color: white;
+            box-shadow: 2px 2px 2px grey;
+        }.alamat a {
+            color: black;
+        }.alamat a:hover{
+            color: blue;
         }
-
 
         /* punya portofoolio  */
 
@@ -476,10 +530,11 @@ body{
             float: left;
         }
         .banner-about{
-            background-color:  rgba(21, 176, 95, 0.8);
+            background-color:  rgb(92, 15, 79);
             text-align: center;
             color: white;
-            font-size: 15px
+            font-size: 15px;
+            margin-bottom: 20px;
             
 
         }
@@ -490,6 +545,7 @@ body{
 
         @media (max-width: 768px){
             .mobile{
+                display: block;
                 position:fixed;
                 left: 80%;
             }.header-con{
@@ -498,20 +554,46 @@ body{
                 width: 109%;
                 z-index: 2;
             }.header-con h2{
-                font-size: 16px;
+                font-size: 18px;
             }
             header ul{
                 display:none;
             }.container-gambar{
-                    display: grid;
-                    grid-template-columns: repeat(2,1fr);
-                    grid-gap: 50px 10px;
+                width: 90%;                
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                grid-gap: 30px 10px;
+                background-color: rgba(92, 15, 79);
+                padding-top: 20px;
+                padding-left: 0px;
+                height: auto;
+                border-radius: 20px;
+            }
+            #portofolio p{
+                font-size: 23px;
+                text-align: center;
+                background-color: rgba(226, 43, 186);
+                width: 200px;
+                position: relative;
+                left: 25%;
+                border-radius: 10px;
+                color: white;
+                box-shadow: 2px 2px 2px  grey;
+                margin-top: 20px;
             }.col-3{
                 width: 100%;
                 text-align: center;
-            } #Contact {
-                margin-bottom: 25 0px;
-            }footer{
+            
+            }.contact{
+                width: 90%;
+                position: relative;
+                left: 10%;
+                border-radius: 20px;
+                
+            }.alamat{
+                left: 0;
+            }
+            footer{
                 display: none;
             }.col-2{
                 width: 20%;
@@ -532,16 +614,21 @@ body{
             }.banner{
                 width: 100%;
             }.greeting {
-                font-size: 13px;
-                width: 250px;
+                font-size: 12px;
+                width: 100%;
                 height: 300px;
                 bottom: 20px;
                 
             }.greeting p{
                 color: white;
+                width: 60%;
+                font-size: 12px;
             }
             .banner img{
                 left: 0;
+                width: 29%;
+                bottom: 50%;
+                
             }
                
             
@@ -551,21 +638,62 @@ body{
              width: 90%;
            }.sidebar{
             width: 300px;
-           }
-            }
+           };
+            };
+
             @media (max-width: 992px){
                 .mobile{
-                    display:block;
-                } header ul{
+                    display: block;
+                    position:fixed;
+                    left: 80%;
+                }.header-con{
+                    position: fixed;
+                    background-color: white;
+                    width: 109%;
+                    z-index: 2;
+                }.header-con h2{
+                    font-size: 18px;
+                }
+                header ul{
                     display:none;
-                }.col-4{
-                        width: 50%;
+                }.container-gambar{
+                    width: 90%;                
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    grid-gap: 30px 10px;
+                    background-color: rgba(92, 15, 79);
+                    padding-top: 20px;
+                    padding-left: 0px;
+                    height: auto;
+                    border-radius: 20px;
+                }
+                #portofolio p{
+                    font-size: 23px;
+                    text-align: center;
+                    background-color: rgba(226, 43, 186);
+                    width: 200px;
+                    position: relative;
+                    left: 25%;
+                    border-radius: 10px;
+                    color: white;
+                    box-shadow: 2px 2px 2px  grey;
+                    margin-top: 20px;
+                    height: 10%;
+                    top: 50%;
                 }.col-3{
                     width: 100%;
                     text-align: center;
-                } #Contact {
-                    margin-bottom: 25 0px;
-                }footer{
+                
+                }.contact{
+                    width: 90%;
+                    position: relative;
+                    left: 5%;
+                    border-radius: 20px;
+                    
+                }.alamat{
+                    left: 0;
+                }
+                footer{
                     display: none;
                 }.col-2{
                     width: 20%;
@@ -577,9 +705,40 @@ body{
                     margin-left: 40%;
                 }.intro-about{
                     margin-top: 50px;
+                }.navbar-porto h2{
+                    display: none;
+                }.navbar-porto label{
+                    font-size: 15px;
+                    margin: 2px 2px;
+                    
                 }.banner{
-                    width:100%;
+                    width: 100%;
+                }.greeting {
+                    font-size: 12px;
+                    width: 100%;
+                    height: 300px;
+                    bottom: 20px;
+                    
+                }.greeting p{
+                    color: white;
+                    width: 60%;
+                    font-size: 12px;
                 }
+                .banner img{
+                    left: 0;
+                    width: 29%;
+                    bottom: 50%;
+                    
                 }
+                   
+                
+                .navbar-porto{
+                    width: 100%;
+               }.img-index span{
+                 width: 90%;
+               }.sidebar{
+                width: 300px;
+               }
+                };
          
          
