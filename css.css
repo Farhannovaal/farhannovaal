@@ -133,7 +133,7 @@ body{
 
         .banner{
             position: relative;
-            left: 5%;
+            left: 2%;
             background-color:rgb(92, 15, 79);
             width: 90%;
             padding: 50px;
@@ -401,6 +401,8 @@ body{
             height: 230px;
             text-align: center;
             transition: .5s;
+            color: white;
+            font-weight: bold;
         }
         .pic2 img{
             width: 100%;
@@ -565,9 +567,12 @@ body{
                 grid-gap: 30px 10px;
                 background-color: rgba(92, 15, 79);
                 padding-top: 20px;
-                padding-left: 0px;
                 height: auto;
                 border-radius: 20px;
+            }.pic{
+                width: auto;
+                height: auto;
+                left: 0;
             }
             #portofolio p{
                 font-size: 23px;
@@ -575,11 +580,12 @@ body{
                 background-color: rgba(226, 43, 186);
                 width: 200px;
                 position: relative;
-                left: 25%;
+                left: auto;
                 border-radius: 10px;
                 color: white;
                 box-shadow: 2px 2px 2px  grey;
                 margin-top: 20px;
+                margin: auto;
             }.col-3{
                 width: 100%;
                 text-align: center;
@@ -612,7 +618,8 @@ body{
                 margin: 2px 2px;
                 
             }.banner{
-                width: 100%;
+                width: 90%;
+                left: 5%;
             }.greeting {
                 font-size: 12px;
                 width: 100%;
@@ -659,13 +666,16 @@ body{
                 }.container-gambar{
                     width: 90%;                
                     display: grid;
-                    grid-template-columns: repeat(2,1fr);
+                    grid-template-columns: repeat(1,1fr);
                     grid-gap: 30px 10px;
                     background-color: rgba(92, 15, 79);
                     padding-top: 20px;
-                    padding-left: 0px;
                     height: auto;
                     border-radius: 20px;
+                }.pic{
+                    width: auto;
+                    height: auto;
+                    left: 0;
                 }
                 #portofolio p{
                     font-size: 23px;
@@ -673,13 +683,12 @@ body{
                     background-color: rgba(226, 43, 186);
                     width: 200px;
                     position: relative;
-                    left: 25%;
+                    left: auto;
                     border-radius: 10px;
                     color: white;
                     box-shadow: 2px 2px 2px  grey;
                     margin-top: 20px;
-                    height: 10%;
-                    top: 50%;
+                    margin: auto;
                 }.col-3{
                     width: 100%;
                     text-align: center;
@@ -687,7 +696,7 @@ body{
                 }.contact{
                     width: 90%;
                     position: relative;
-                    left: 5%;
+                    left: 10%;
                     border-radius: 20px;
                     
                 }.alamat{
@@ -712,7 +721,8 @@ body{
                     margin: 2px 2px;
                     
                 }.banner{
-                    width: 100%;
+                    width: 90%;
+                    left: 5%;
                 }.greeting {
                     font-size: 12px;
                     width: 100%;
@@ -738,7 +748,8 @@ body{
                  width: 90%;
                }.sidebar{
                 width: 300px;
-               }
+               };
                 };
+    
          
          
