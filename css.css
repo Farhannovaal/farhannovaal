@@ -403,6 +403,7 @@ body{
             transition: .5s;
             color: white;
             font-weight: bold;
+            margin: 10px;
         }
         .pic2 img{
             width: 100%;
