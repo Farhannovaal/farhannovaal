@@ -363,9 +363,10 @@ body{
             font-size: 23px;
             text-align: center;
             background-color: rgba(226, 43, 186);
-            width: 200px;
+            width: auto;
             position: relative;
-            left: 420px;
+            align-items: center;
+            left: 100%;
             border-radius: 10px;
             color: white;
             box-shadow: 2px 2px 2px  grey;
@@ -569,13 +570,18 @@ body{
         
                
             }.pic{
-              left: 0;
+                width: auto;
+                height: auto;
+             
+             
+            }.pic img{
+                width: 100%;
             }
             #portofolio p{
-                font-size: 23px;
+                font-size: auto;
                 text-align: center;
                 background-color: rgba(226, 43, 186);
-                width: 200px;
+                width: auto;
                 position: relative;
                 left: auto;
                 border-radius: 10px;
