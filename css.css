@@ -403,7 +403,7 @@ body{
             transition: .5s;
             color: white;
             font-weight: bold;
-            margin: 10px;
+            margin: auto;
         }
         .pic2 img{
             width: 100%;
@@ -562,16 +562,14 @@ body{
             header ul{
                 display:none;
             }.container-gambar{
-                width: 90%;                
+                width: 100%;                
                 display: grid;
                 grid-template-columns: repeat(1,1fr);
                 margin: auto;
         
                
             }.pic{
-                width: auto;
-                height: auto;
-                left: 0;
+              left: 0;
             }
             #portofolio p{
                 font-size: 23px;
@@ -639,9 +637,11 @@ body{
                 width: 30%;
                 height: 120px;
                 
+            } .banner span{
+                font-size: 18px;
+            } .banner h2,h4{
+                font-size: 16px;
             }
-               
-            
             .navbar-porto{
                 width: 100%;
            }.img-index span{
@@ -649,9 +649,10 @@ body{
            }.sidebar{
             width: 300px;
            };
-            };
-
-            @media (max-width: 992px){
+            }
+            
+        
+            @media (max-width: 960px){
                 .mobile{
                     display: block;
                     position:fixed;
@@ -667,18 +668,14 @@ body{
                 header ul{
                     display:none;
                 }.container-gambar{
-                    width: 90%;                
+                    width: 100%;                
                     display: grid;
                     grid-template-columns: repeat(1,1fr);
-                    grid-gap: 30px 10px;
-                    background-color: rgba(92, 15, 79);
-                    padding-top: 20px;
-                    height: auto;
-                    border-radius: 20px;
+                    margin: auto;
+            
+                   
                 }.pic{
-                    width: auto;
-                    height: auto;
-                    left: 0;
+                  left: 0;
                 }
                 #portofolio p{
                     font-size: 23px;
@@ -738,13 +735,19 @@ body{
                     font-size: 12px;
                 }
                 .banner img{
-                    left: 10pc;
-                    width: 20%;
-                    bottom:20%;
+                    left: 0;
+                    width: 29%;
+                    bottom: 50%;
                     
+                }.greeting img{
+                    width: 30%;
+                    height: 120px;
+                    
+                } .banner span{
+                    font-size: 18px;
+                } .banner h2,h4{
+                    font-size: 16px;
                 }
-                   
-                
                 .navbar-porto{
                     width: 100%;
                }.img-index span{
@@ -752,7 +755,4 @@ body{
                }.sidebar{
                 width: 300px;
                };
-                };
-    
-         
-         
+                }
