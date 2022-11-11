@@ -69,17 +69,20 @@ body{
         clear:both;
     }
     .mobile{
-        float:right;
+        float:right;    
         padding:10px;
-        margin-top: 10px;
+      
         display: none;
+        position: relative;
+        
+        
     }
 
     .mobile:hover{
         cursor:pointer;
     }
 
-    #test{ display: none }
+
 
     .sidebar{
         position: fixed;
