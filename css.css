@@ -21,7 +21,7 @@ body{
 
     header h2 a {
         text-decoration: none;
-        color: rgb(226, 43, 186);
+        color: black
     }
 
     header h2 a:hover {
@@ -43,9 +43,9 @@ body{
     }
 
     header ul li a {
-        background-color: rgb(226, 43, 186);
+        
         text-decoration: none;
-        color: white;
+        color: black;
         padding: 5px;
         border-radius: 10px;
         
@@ -130,41 +130,31 @@ body{
 
         section {
             background-color: white;
-            padding: 50px 20px;
         }
 
         .banner{
             position: relative;
-            left: 2%;
-            background-color:rgb(92, 15, 79);
-            width: 90%;
-            padding: 50px;
+            width: 100%;
             height: 300px;
             border-radius: 10px;
-            margin-top: 20px;
+
         }.banner span{
-            color: rgb(226, 43, 186);
+            color: rgb(180, 171, 171);
         }.banner h4{
-            color: blueviolet;
+            color: rgb(192, 15, 15);
         }
     .header{
             width: 100%;
         }.greeting{
-            width: 50%;
-            float: left;
-        }.img-index{
-           
-            position: relative;
-            bottom: 200px;
-            float: right;
-            left: 90%;
+            background-color: rgb(58, 57, 58);;
+            height: auto;
+            padding: 20px;
+            width: 800px;
+            border-radius: 0px 80px 80px 0px;
         }.greeting p{
             font-size: 18px;
             font-weight: bold;
         }
-        
-
-
         .banner h2, .banner p {
             color: white;
             font-family: sans-serif;
@@ -207,7 +197,7 @@ body{
 
 
         .skill{
-            background-color: rgb(92, 15, 79);
+            background-color: rgb(49, 49, 49);
             color: white;
             width: 100%;
             padding: 20px;
@@ -217,7 +207,6 @@ body{
 
         #skill .bar{
             height: 30px;
-            background-color: rgb(92, 15, 79);
             margin: 10px 0 30px 0;
             border-radius: 20px;
             width: 100%;
@@ -229,6 +218,7 @@ body{
             display: inline-block;
             background-color:rgba(240, 244, 245, 0.93);
             border-radius: 20px;
+            padding: 5px;
         }
 
         .bar  span{
@@ -344,7 +334,7 @@ body{
             grid-template-columns: repeat(3,1fr);
             grid-gap: 30px 10px;
             margin-top: 50px;
-            background-color: rgba(92, 15, 79);
+            background-color: rgb(36, 35, 36);
             padding: 50px;
             height: auto;
             border-radius: 20px;
@@ -365,22 +355,22 @@ body{
         }#portofolio p{
             font-size: 23px;
             text-align: center;
-            background-color: rgba(226, 43, 186);
+            background-color: rgb(233, 233, 233);
             width: auto;
             position: relative;
             align-items: center;
             left: 100%;
             border-radius: 10px;
-            color: white;
+            color: rgb(12, 12, 12);
             box-shadow: 2px 2px 2px  grey;
             margin-top: 20px;
         }#portofolio a {
-            color: white;
+            color: rgb(29, 29, 29);
         }#portofolio p:hover{
             background-color: grey;
         }.contact{
             width: 90%;
-            background-color: rgba(92, 15, 79);
+            background-color: rgb(26, 26, 26);
             position: relative;
             left: 5%;
             padding: 20px;
@@ -530,23 +520,15 @@ body{
         .active{
             opacity: 0.5;
         }
-        .foto-about img{
-            width: 50%;
-            border-radius: 20px;
-            transform: translateX(60px);
-            float: left;
-        }
+
         .banner-about{
-            background-color:  rgb(92, 15, 79);
-            text-align: center;
+            background-color:  rgb(54, 53, 54);
             color: white;
             font-size: 15px;
-            margin-bottom: 20px;
-            
-
+            padding: 20px;
+            width: 100%;
         }
         .intro-about{
-            float: right;
             font-size: 18px;
         }
 
