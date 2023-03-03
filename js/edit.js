@@ -32,7 +32,7 @@ function animasitIntroOut(){
 	$("#start").velocity("transition.whirlOut",{
 								stagger: 400,
 								complete: function(){
-									$(".greet-wrapper").velocity("transition.flipYOut").css({"font-size": "20px","left":"40%","top":"0%",
+									$(".greet-wrapper").velocity("transition.whirlOut",{
                                                             duration : 200,
 															complete: function(){
 																$("#sosmed").velocity("transition.whirlOut",{
@@ -100,3 +100,12 @@ function skill(){
 }
 
 
+
+let toggleMenu = document.querySelector('.menu-toggle');
+let menuWrap = document.querySelector('.navbar-wrapper');
+
+// toggle function/
+
+toggleMenu.addEventListener('click', function(){
+	menuWrap.classList.add('active');
+});
