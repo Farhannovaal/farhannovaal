@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500;600;700&display=swap');
+
+:root{
+    --main-color :  #217713;
+    --second-color : #FFA451;
+    --body-color : #D0FCFF;
+    --font-color : white;
+    --main-font:'Open Sans', sans-serif;
+    --heading-font : 'Raleway', sans-serif;
+
+}
+
+
+body{
+    background-color: var(--main-color);
+    font-family: var(--main-font);
+}
+
+.greet-wrapper {
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--font-color);
+}
+
+.sosmed {
+    font-size: 50px;
+
+    display: none;
+    gap: 20px;
+}
+.sosmed a{
+    color: var(--font-color);
+}
+
+#intro-button button{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: none;
+    font-weight: 400;
+}
+
+.sosmed-wrapper{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container-content{
+    display: none;
+}
+
+
+.navbar{
+    display: none ;
+}
+.navbar-wrapper ul{
+   
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar-wrapper ul li a:hover{
+    border-left: 2px solid  rgb(72, 68, 68);
+    padding-left: 5px;
+}
+
+.navbar-wrapper ul li.active a{
+    border-bottom: 4px solid white;
+}
+.navbar-wrapper ul li.active a:hover{
+    border-left: none;
+}
+.navbar-wrapper a{
+    text-decoration: none;
+    color:white;
+}
+
+.navbar-wrapper a:hover{
+    color: rgb(72, 68, 68);
+}
+
+
+
+
+
+#homePage .heading{
+    text-align: center;
+    font-size: 40px;
+    color: var(--font-color);
+}
+
+.home-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+}
+.home-wrapper .content-left img{
+    width: 500px;
+}
+
+.home-wrapper .content-left .home-icon i{
+    font-size: 40px;
+    width: 150px;
+    text-align: center;
+    color: black;
+}
+
+.home-wrapper .content-left .home-icon i:hover{
+    color: white;
+}
+
+.home-wrapper .content-right{
+    max-width: 700px;
+    font-size: 20px;
+    color: var(--font-color);
+}
+
+
+
+.porto-wrapper{
+    display: flex;
+    gap: 40px;
+    margin:  80px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.porto-wrapper .photo img{
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+.porto-wrapper .photo{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 5px 5px 15px 5px;
+}
+
+.porto-wrapper h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.porto-wrapper .photo span {
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+
+/* SKILL */
+
+
+.skill-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+}
+
+.skill-wrapper .hardskil{
+    padding: 20px;
+    border-radius: 5px;
+    width: 800px;
+    text-align: center;
+    height: 120px;
+}
+.skill-wrapper .hardskil img{
+    width: 100px;
+    text-align: center;
+}
+
+
+.skill-wrapper .softskil li{
+    font-weight: 600;
+    color: var(--font-color);
+    font-size: 30px;
+    list-style: none;
+    width: 250px;
+    text-align: left;
+    
+}
+
+.skill-wrapper .hardskil h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+}
+
+.skill-wrapper .hardskil .roadmap img{
+    width: 600px;
+    margin-top: 50px;
+}
+@media screen and (max-width: 960px) {
+    
+    #homePage .heading{
+        text-align: center;
+        font-size: 20px;
+        color: var(--font-color);
+    }
+    .greet-wrapper{
+        font-size: 30px;
+    }
+
+    .sosmed{
+        font-size: 30px;
+        left: 35%;
+    }
+
+    #intro-button button{
+        left: 40%;
+
+    }
+}
