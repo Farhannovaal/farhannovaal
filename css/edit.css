@@ -400,7 +400,7 @@ body{
 }
     }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 650px){
 
     #homePage .heading{
         font-size: 15px;
