@@ -1,8 +1,8 @@
 ### Hi there 👋, welcome to my home.
 
-<h3>I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
+<h3 style="color : red; text-align:center;">I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
 
-<div style="text-align: center;">
+<div>
   <a href="https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox?compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBgQLhxG">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
@@ -19,7 +19,7 @@
 
 <h3> It's a language that supports my position as a front-end developer. </h3>
 
-<div text-align="center">
+<div style="text-align: center;">
 <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
