@@ -1,6 +1,6 @@
 ### Hi there 👋, welcome to my home.
 
-<h3>I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
+<h3 style="color:red; text-align:center;">I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
 
 <a href="https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox?          
 compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBgQLhxG"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -9,7 +9,7 @@ compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBg
 <a href="https://www.linkedin.com/in/farhan-noval-38559a140/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
 
-<h3> It's a language that supports my position as a front-end developer. </h3>
+<h3 style="font-weight:bold; color:red; text-align:center; "> It's a language that supports my position as a front-end developer. </h3>
 
 <div style="display:flex">
 <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
@@ -25,14 +25,3 @@ compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBg
 <!--
 **Farhannovaal/farhannovaal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
