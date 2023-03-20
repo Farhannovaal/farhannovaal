@@ -1,4 +1,9 @@
-### Hi there 👋
+### Hi there 👋, welcome to my home.
+
+<h3>I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
+
+<a><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+
 
 <!--
 **Farhannovaal/farhannovaal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
