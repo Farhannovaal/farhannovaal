@@ -2,7 +2,7 @@
 
 <h3>I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
 
-<a><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox?compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBgQLhxG"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 
 
 <!--
