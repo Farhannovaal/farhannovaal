@@ -29,7 +29,7 @@ compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBg
  
  <h2> Github Stats </h2>
  
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Farhannovaal)](https://github.com/Farhannovaal);
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Farhannovaal)](https://github.com/Farhannovaal)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Farhannovaal&layout=compact)](https://github.com/Farhannovaal) 
 <!--
 **Farhannovaal/farhannovaal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
