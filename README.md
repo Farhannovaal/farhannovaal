@@ -1,15 +1,16 @@
 ### <h1 align="center">Hi there 👋, welcome to my home.</h1>
 
-<h3 style="color:red; text-align:center;">I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
+<h3 align="center">I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
 
+<div align="center" >
 <a href="https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox?          
 compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBgQLhxG"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://api.whatsapp.com/send?phone=6283179727076"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 <a href="https://www.instagram.com/farhannovaaal/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/farhan-noval-38559a140/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
-<h3 style="color : red; text-align:center;">I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
-
+<h3 align="center">I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
+</div>
 
 <h3 align="center">I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
 
@@ -30,7 +31,7 @@ compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBg
 </div>
 
  
-<h3 style="font-weight:bold; color:red; text-align:center; "> It's a language that supports my position as a front-end developer. </h3>
+<h3 align="center"> It's a language that supports my position as a front-end developer. </h3>
 
 
 <h3 align="center"> It's a language that supports my position as a front-end developer. </h3>
