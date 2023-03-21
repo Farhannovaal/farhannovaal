@@ -29,9 +29,10 @@ compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBg
   </a>
 </div>
 
- H
+ 
 <h3 style="font-weight:bold; color:red; text-align:center; "> It's a language that supports my position as a front-end developer. </h3>
-=======
+
+
 <h3 align="center"> It's a language that supports my position as a front-end developer. </h3>
 
 
