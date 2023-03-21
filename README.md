@@ -1,6 +1,6 @@
 ### <h1 align="center">Hi there 👋, welcome to my home.</h1>
 
-<h3 align="center">I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h3>
+<h2 align="center">I am Farhan, a web developer, and I focus on being a front end developer. Nice to meet you; if you are interested, please contact me at:</h2>
 
 <div align="center" >
 <a href="https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox?          
@@ -11,7 +11,7 @@ compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBg
 
 
  
-<h3 align="center"> It's a language that supports my position as a front-end developer. </h3>
+<h2 align="center"> It's a language that supports my position as a front-end developer. </h2>
 
 
 
@@ -26,6 +26,11 @@ compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBg
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
 </div>
+ 
+ <h2> Github Stats </h2>
+ 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Farhannovaal)](https://github.com/Farhannovaal);
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Farhannovaal&layout=compact)](https://github.com/Farhannovaal) 
 <!--
 **Farhannovaal/farhannovaal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
