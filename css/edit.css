@@ -10,10 +10,15 @@
 
 }
 
-
+*{
+    margin :0;
+    padding: 0;
+    text-decoration: none;
+}
 body{
-    background-color: var(--main-color);
+    background-color: rgb(0, 128, 47);
     font-family: var(--main-font);
+    background-image: url('/images/topography.png');
 }
 
 .greet-wrapper {
@@ -63,10 +68,15 @@ body{
     display: none ;
 }
 
+.navbar .menu-wrapper{
+    display: none;
+}
+.navbar .show-nav{
+    display: none;
+}
 .navbar .menu-toggle{
     font-size: 40px;
     color: white;
-    position: absolute;
     top: 10%;
     display: none;
 }
@@ -89,20 +99,26 @@ body{
     color: white;
 }
 
-
-.navbar .menu-wrapper li a:hover{
-    color: var(--main-color);
-}
 .navbar-wrapper ul li a:hover{
     border-left: 2px solid  rgb(72, 68, 68);
     padding-left: 5px;
 }
 
 .navbar-wrapper ul li.active a{
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid grey;
+    color: grey;
 }
 .navbar-wrapper ul li.active a:hover{
     border-left: none;
+    color: white;
+}
+.menu-wrapper ul li.active a{
+    border-bottom: 4px solid white;
+    color: none;
+}
+.menu-wrapper ul li.active a:hover{
+    border-left: none;
+    color: white;
 }
 .navbar-wrapper a{
     text-decoration: none;
@@ -155,7 +171,7 @@ body{
 .porto-wrapper{
     display: flex;
     gap: 40px;
-    margin:  80px auto;
+    margin: 100px auto;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -267,7 +283,7 @@ body{
         font-size: 30px;
     }
     #intro-button button{
-        left: 40%;
+        left: 50%;
 
     }
 
@@ -315,7 +331,7 @@ body{
         .porto-wrapper{
             display: flex;
             gap: 40px;
-            margin:  20px auto;
+            margin:40px auto;
             flex-wrap: wrap;
             justify-content: center;
         }
@@ -402,10 +418,10 @@ body{
 
 @media screen and (max-width: 650px){
 
-    #homePage .heading{
+        #homePage .heading{
         font-size: 15px;
         text-align: center;
-    }
+        }
    
 
         .navbar .navbar-wrapper{
@@ -413,9 +429,65 @@ body{
             text-align: center;
             padding: 10px;
             width: 100%;
-            
+            display: none;
+        }
+        .navbar .show-nav{
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            width: 100%;
+            background-color: rgb(0, 128, 47);
+            background-image: url(/images/topography.png);
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 2px 2px black;
+        }
+        .navbar .show-nav .show-title{
+            background-color: rgb(0, 128, 47);
+            padding: 10px;
+            border-radius: 5px;
+            font-family: var(--main-font);
+            font-weight: bold;
+            color: white;
+        }
+        .navbar .show-nav .menu-toggle{
+            display: block;
+            position: relative;
+            z-index: 2;
+            color: white;
         }
 
+    
+        .navbar .menu-wrapper.active{
+            position: relative;
+            display: block;
+            width: 100%;
+            margin-bottom: 10px; 
+        }
+        .navbar .menu-wrapper ul{
+            padding: 10px 50px;
+            text-align: left;
+            list-style: none;
+            width: 60%;
+            height: 250px;
+            margin:0;
+           
+        }
+        .navbar .menu-wrapper ul li{
+            margin-top: 10px;
+            width: 150px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .navbar .menu-wrapper ul li:hover{
+            background-color: grey;
+        }
+        .navbar .menu-wrapper ul li a{
+            font-weight: bold;
+            font-family: var(--main-font);
+            color: black;
+        }
         .navbar .navbar-wrapper ul{
             display: flex;
             font-size: 12px;
