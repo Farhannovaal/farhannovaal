@@ -205,6 +205,26 @@ body{
     font-style: italic;
 }
 
+.btn-wrapper{
+    margin: 10px 30px 0px 30px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-wrapper p{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: green;
+    color: black;
+    font-family: var(--main-font);
+}
+.btn-wrapper p:hover{
+    background-color: grey;
+}
 
 
 /* SKILL */
@@ -473,12 +493,10 @@ body{
             width: 60%;
             height: 250px;
             margin:0;
-           
         }
         .navbar .menu-wrapper ul li{
             margin-top: 10px;
             width: 150px;
-            background-color: white;
             padding: 10px;
             border-radius: 5px;
         }
@@ -488,7 +506,7 @@ body{
         .navbar .menu-wrapper ul li a{
             font-weight: bold;
             font-family: var(--main-font);
-            color: black;
+            color: white;
         }
         .navbar .navbar-wrapper ul{
             display: flex;
