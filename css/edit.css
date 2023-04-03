@@ -256,17 +256,16 @@ body{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    cursor:no-drop;
 }
 .skill-wrapper .softskil li{
     font-weight: 600;
     color: var(--font-color);
     font-size: 30px;
-    list-style: none;
     width: 250px;
     text-align: left;
-    background-color: white;
-    color: black;
-    margin-top: 20px;
+    color: white;
+    margin: 20px;
     padding: 20px;
     text-align: center;
     border-radius: 5px;
@@ -573,11 +572,14 @@ body{
             font-style: italic;
         }
         
+
+#skill{
+    margin: auto;
+}
 .skill-wrapper{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 0px;
     font-family: var(--main-font);
     width: 100%;
 
@@ -595,6 +597,7 @@ body{
 
 
 .skill-wrapper .softskil li{
+    cursor: no-drop;
     font-weight: 600;
     color: var(--font-color);
     font-size: 18px;
@@ -603,9 +606,9 @@ body{
     text-align: center;
     color: black;
     border: none;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top:10px;
     width: 100%;
 }
 
