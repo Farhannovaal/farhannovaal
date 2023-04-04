@@ -107,7 +107,7 @@ body{
 
 .navbar-wrapper ul li.active a{
     border-bottom: 4px solid grey;
-    color: grey;
+    color: white;
 }
 .navbar-wrapper ul li.active a:hover{
     border-left: none;
@@ -401,20 +401,16 @@ body{
     text-align: center;
 }
 
-
 .skill-wrapper .softskil li{
     font-weight: 600;
     color: var(--font-color);
     font-size: 18px;
     list-style: none;
-    background-color: white;
     text-align: center;
     color: black;
-    border: none;
     padding: 10px;
-    border-radius: 5px;
     margin-top: 10px;
-    width: 80%;
+    background-color: white;
 }
 
 .container-roadmap .roadmap{
@@ -499,9 +495,6 @@ body{
             padding: 10px;
             border-radius: 5px;
         }
-        .navbar .menu-wrapper ul li:hover{
-            background-color: grey;
-        }
         .navbar .menu-wrapper ul li a{
             font-weight: bold;
             font-family: var(--main-font);
@@ -582,34 +575,11 @@ body{
     margin: 0px;
     font-family: var(--main-font);
     width: 100%;
-
-}
-
-.skill-wrapper .hardskil{
-    padding: 20px;
-    border-radius: 5px;
-    width: 100%;
-    text-align: center;
-}
-.skill-wrapper .hardskil img{
-    width: 40px;
-}
-
-
-.skill-wrapper .softskil li{
     cursor: no-drop;
-    font-weight: 600;
-    color: var(--font-color);
-    font-size: 18px;
-    list-style: none;
-    background-color: white;
-    text-align: center;
-    color: black;
-    border: none;
-    padding: 5px;
-    border-radius: 5px;
-    margin-top:10px;
-    width: 100%;
+}
+
+.skill-wrapper .container-roadmap .softskil li{
+    
 }
 
 .skill-wrapper .container-roadmap{
