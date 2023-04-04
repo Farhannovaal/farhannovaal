@@ -82,8 +82,8 @@ function animasiIntro() {
 			var hrefString = $(this).attr("href");
 		
 
-		if(hrefString == "back-to-main"){
-			backToIntro();
+		if(hrefString == "active"){
+			location.reload();;
 		}else{		
 			if (!$("#" + hrefString).is(':visible')) {
 				$(".container-content").fadeOut(1000);
@@ -103,8 +103,8 @@ function animasiIntro() {
 			var hrefString = $(this).attr("href");
 		
 
-		if(hrefString == "back-to-main"){
-			backToIntro();
+		if(hrefString == "active"){
+			location.reload();;
 		}else{		
 			if (!$("#" + hrefString).is(':visible')) {
 				$(".container-content").fadeOut(1000);
@@ -151,3 +151,6 @@ toggleMenu.addEventListener('click', function(){
         menuWrap.classList.add("active");
     }
 });
+
+
+//  AJAX REFRESH
