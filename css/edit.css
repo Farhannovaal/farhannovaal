@@ -434,11 +434,14 @@ body{
     font-size: 18px;
     list-style: none;
     text-align: center;
-    color: black;
+    color: white;
     padding: 10px;
     margin-top: 10px;
-    background-color: white;
+    /* background-color: aliceblue; */
+    border-bottom: 2px black solid;
 }
+
+li {}
 
 .container-roadmap .roadmap{
     margin: 0px 0px;
