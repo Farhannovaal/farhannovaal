@@ -83,7 +83,7 @@ function animasiIntro() {
 		
 
 		if(hrefString == "active"){
-			location.reload();;
+			
 		}else{		
 			if (!$("#" + hrefString).is(':visible')) {
 				$(".container-content").fadeOut(1000);
@@ -154,3 +154,4 @@ toggleMenu.addEventListener('click', function(){
 
 
 //  AJAX REFRESH
+
