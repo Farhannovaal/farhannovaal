@@ -39,6 +39,9 @@ body{
 .sosmed a{
     color: var(--font-color);
 }
+.sosmed a:hover{
+    color:black;
+}
 
 #intro-button button{
     padding: 10px;
@@ -47,6 +50,13 @@ body{
     display: none;
     font-weight: 400;
     margin-top: 10px;
+    border:none;
+    font-family:var(--main-font);
+}
+
+#intro-button button:hover{
+    background-color:black;
+    color:white;
 }
 
 .sosmed-wrapper{
