@@ -20,6 +20,7 @@ body{
     font-family: var(--main-font);
     background-image: url(../images/topography.svg);
     background-size: cover;
+    margin:100px;
 }
 
 .greet-wrapper {
