@@ -1,9 +1,9 @@
-// fungsi untuk animasi intro
+
 function animasiIntro() {
-	// menggunakan jQuery, animasikan elemen dengan kelas greet-wrapper span menggunakan velocity.js dengan efek slideLeftIn dan opsi stagger sebesar 150
+	
 	$(".greet-wrapper span").velocity("transition.slideLeftIn", {
 	  stagger: 150,
-	  // ketika animasi selesai, jalankan fungsi untuk animasi button start
+	
 	  complete: function() {
 		$("#sosmed").velocity("transition.bounceDownIn", {
 		  duration: 1000,
@@ -22,13 +22,12 @@ function animasiIntro() {
   
   // fungsi untuk animasi button start
   function animasiButtonStart() {
-	// menggunakan jQuery, animasikan elemen dengan id start menggunakan velocity.js dengan efek bounceUpIn
+
 	$("#start").velocity("transition.bounceUpIn")
-	  // ketika kursor masuk ke atas elemen, animasikan lebar elemen menjadi 100 menggunakan velocity.js
+	 
 	  .mouseenter(function() {
 		$(this).velocity({ width: 100 });
 	  })
-	  // ketika kursor keluar dari atas elemen, animasikan lebar elemen menjadi 125 menggunakan velocity.js
 	  .mouseleave(function() {
 		$(this).velocity({ width: 125 });
 	  });
@@ -36,7 +35,7 @@ function animasiIntro() {
   
   // fungsi untuk animasi keluar dari halaman intro
   function animasitIntroOut() {
-	// set atribut disabled dan warna teks elemen dengan id start
+	
 	$("#start").attr('disabled', true).css({ "color": "black" });
 	// menggunakan jQuery, animasikan elemen dengan id start menggunakan velocity.js dengan efek whirlOut dan opsi stagger sebesar 400
 	$("#start").velocity("transition.whirlOut", {
@@ -69,7 +68,7 @@ function animasiIntro() {
   
   // fungsi untuk memanggil menu
   function callMenu() {
-	// menggunakan jQuery, animasikan elemen dengan kelas navbar menggunakan velocity.js dengan efek slideLeftIn dan opsi stagger sebesar 250
+	
 	$(".navbar").velocity("transition.slideLeftIn", {
 	  stagger: 250
 	});
