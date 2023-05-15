@@ -53,6 +53,7 @@ body{
     margin-top: 10px;
     border:none;
     font-family:var(--main-font);
+    cursor: pointer;
 }
 
 #intro-button button:hover{
