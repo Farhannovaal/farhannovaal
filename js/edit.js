@@ -65,59 +65,50 @@ function animasiIntro() {
 	  }
 	});
   }
-  
-  // fungsi untuk memanggil menu
   function callMenu() {
-	
 	$(".navbar").velocity("transition.slideLeftIn", {
 	  stagger: 250
 	});
   
-
 	$(".navbar-wrapper ul li a").off("click").click(function(event){
-		event.preventDefault();
-		$(this).parent("li").addClass("active").siblings().removeClass("active");
-
-			var hrefString = $(this).attr("href");
-		
-
-		if(hrefString == "active"){
-			
-		}else{		
-			if (!$("#" + hrefString).is(':visible')) {
-				$(".container-content").fadeOut(1000);
-				setTimeout(function(){ 
-					$("#" + hrefString).show();
-					window[hrefString]();
-				}, 1000);			
-			}
-		}	
-        
+	  event.preventDefault();
+	  $(this).parent("li").addClass("active").siblings().removeClass("active");
+  
+	  var hrefString = $(this).attr("href");
+  
+	  if (hrefString == "active") {
+		// Tidak ada tindakan yang diambil jika item menu sudah aktif
+	  } else {
+		// Fokuskan scroll ke konten yang sesuai
+		var targetContent = $("#" + hrefString);
+		if (targetContent.length > 0) {
+		  $("html, body").animate({
+			scrollTop: targetContent.offset().top
+		  }, 1000);
+		}
+	  }
 	});
-
+  
 	$(".menu-wrapper ul li a").off("click").click(function(event){
-		event.preventDefault();
-		$(this).parent("li").addClass("active").siblings().removeClass("active");
-
-			var hrefString = $(this).attr("href");
-		
-
-		if(hrefString == "active"){
-			location.reload();;
-		}else{		
-			if (!$("#" + hrefString).is(':visible')) {
-				$(".container-content").fadeOut(1000);
-				setTimeout(function(){ 
-					$("#" + hrefString).show();
-					window[hrefString]();
-				}, 1000);			
-			}
-		}	
-        
+	  event.preventDefault();
+	  $(this).parent("li").addClass("active").siblings().removeClass("active");
+  
+	  var hrefString = $(this).attr("href");
+  
+	  if (hrefString == "active") {
+		location.reload();
+	  } else {
+		// Fokuskan scroll ke konten yang sesuai
+		var targetContent = $("#" + hrefString);
+		if (targetContent.length > 0) {
+		  $("html, body").animate({
+			scrollTop: targetContent.offset().top
+		  }, 1000);
+		}
+	  }
 	});
-
-}
-
+  }
+  
 
 function homePage(){
 	$("#homePage .heading").velocity("transition.flipYIn", {duration:1000});

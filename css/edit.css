@@ -1,26 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500;600;700&display=swap');
-
-:root{
-    --main-color :  #217713;
-    --second-color : #FFA451;
-    --body-color : #D0FCFF;
-    --font-color : white;
-    --main-font:'Open Sans', sans-serif;
-    --heading-font : 'Raleway', sans-serif;
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500;600;700&display=swap"); :root {
+    --main-color: #217713;
+    --second-color: #FFA451;
+    --body-color: #D0FCFF;
+    --font-color: white;
+    --main-font: 'Open Sans', sans-serif;
+    --heading-font: 'Raleway', sans-serif;
 }
 
-*{
-    margin :0;
-    padding: 0;
+* {
+    margin: 0px;
+    padding: 0px;
     text-decoration: none;
 }
-body{
-    background-color: rgb(0, 128, 47);
+
+body {
+    background-color: rgb(28, 37, 113);
     font-family: var(--main-font);
-    background-image: url(../images/topography.svg);
+    background-image: url("../images/topography.svg");
     background-size: cover;
-    margin:100px;
 }
 
 .greet-wrapper {
@@ -28,7 +25,7 @@ body{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: var(--font-color);
 }
 
@@ -37,31 +34,33 @@ body{
     display: none;
     gap: 20px;
 }
-.sosmed a{
+
+.sosmed a {
     color: var(--font-color);
 }
-.sosmed a:hover{
-    color:black;
+
+.sosmed a:hover {
+    color: black;
 }
 
-#intro-button button{
+#intro-button button {
     padding: 10px;
     border-radius: 5px;
     font-size: 20px;
     display: none;
     font-weight: 400;
     margin-top: 10px;
-    border:none;
-    font-family:var(--main-font);
+    border: none;
+    font-family: var(--main-font);
     cursor: pointer;
 }
 
-#intro-button button:hover{
-    background-color:black;
-    color:white;
+#intro-button button:hover {
+    background-color: black;
+    color: white;
 }
 
-.sosmed-wrapper{
+.sosmed-wrapper {
     display: flex;
     justify-content: space-around;
     gap: 50px;
@@ -71,139 +70,137 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.container-content {
+    display: block;
+}
 
-.container-content{
+.navbar {
     display: none;
 }
 
-
-.navbar{
-    display: none ;
-}
-
-.navbar .menu-wrapper{
+.navbar .menu-wrapper {
     display: none;
 }
-.navbar .show-nav{
+
+.navbar .show-nav {
     display: none;
 }
-.navbar .menu-toggle{
+
+.navbar .menu-toggle {
     font-size: 40px;
     color: white;
     top: 10%;
     display: none;
 }
 
-
-.navbar .navbar-wrapper ul{
+.navbar .navbar-wrapper ul {
     display: flex;
     gap: 30px;
-    margin-left: 60px;
-}
-.navbar .navbar-wrapper li{
-    list-style: none;
-    margin-top: 25px;
-    font-size: 30px;
-    display: flex;
+    justify-content: center;
 }
 
-.navbar .menu-wrapper li a{
+.navbar .navbar-wrapper li {
+    list-style: none;
+    font-size: 24px;
+}
+
+.navbar .menu-wrapper li a {
     text-decoration: none;
     color: white;
 }
 
-.navbar-wrapper ul li a:hover{
-    border-left: 2px solid  rgb(72, 68, 68);
+.navbar-wrapper ul li a:hover {
+    border-left: 2px solid rgb(72, 68, 68);
     padding-left: 5px;
 }
 
-.navbar-wrapper ul li.active a{
-    border-bottom: 4px solid grey;
+.navbar-wrapper ul li.active a {
+    border-bottom: 4px solid rgb(9, 9, 9);
     color: white;
-}
-.navbar-wrapper ul li.active a:hover{
-    border-left: none;
-    color: white;
-}
-.menu-wrapper ul li.active a{
-    border-bottom: 4px solid white;
-    color: none;
-}
-.menu-wrapper ul li.active a:hover{
-    border-left: none;
-    color: white;
-}
-.navbar-wrapper a{
-    text-decoration: none;
-    color:white;
 }
 
-.navbar-wrapper a:hover{
+.navbar-wrapper ul li.active a:hover {
+    border-left: none;
+    color: white;
+}
+
+.menu-wrapper ul li.active a {
+    border-bottom: 4px solid white;
+}
+
+.menu-wrapper ul li.active a:hover {
+    border-left: none;
+    color: white;
+}
+
+.navbar-wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-wrapper a:hover {
     color: rgb(72, 68, 68);
 }
 
-
-
-
-
-#homePage .heading{
+#homePage .heading {
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     color: var(--font-color);
 }
 
-.home-wrapper{
+.home-wrapper {
     display: flex;
-    justify-content: space-around;
+    margin: 20px;
     flex-wrap: wrap;
-    margin: 20px 20px;
-}
-.home-wrapper .content-left img{
-    width: 500px;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
 }
 
-.home-wrapper .content-left .home-icon i{
-    font-size: 40px;
-    width: 150px;
+.home-wrapper .content-left img {
+    width: 250px;
+}
+
+.home-wrapper .content-left .home-icon i {
+    font-size: 35px;
     text-align: center;
     color: black;
 }
 
-.home-wrapper .content-left .home-icon i:hover{
+.home-wrapper .content-left .home-icon i:hover {
     color: white;
 }
 
-.home-wrapper .content-right{
+.home-wrapper .content-right {
     max-width: 700px;
-    font-size: 20px;
+    font-size: 14px;
     color: var(--font-color);
     margin-top: 50px;
 }
 
-.home-wrapper .content-right .resume{
+.home-wrapper .content-right .resume {
     display: flex;
-    justify-content:start;
+    justify-content: center;
     gap: 200px;
     margin-top: 30px;
 }
 
-.home-wrapper .content-right .resume a{
-    border-bottom: black 3px solid;
-    padding:10px;
-    border-radius:5px;
-    color:white;
+.home-wrapper .content-right .resume a {
+    border-bottom: 3px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
 }
 
-.home-wrapper .content-right .resume a:hover{
-    background-color:white;
-    padding:10px;
-    border-radius:5px;
-    color:black;
-    font-weight:600;
+.home-wrapper .content-right .resume a:hover {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
 }
 
-
-.porto-wrapper{
+.porto-wrapper {
     display: flex;
     gap: 40px;
     margin: 100px auto;
@@ -211,21 +208,19 @@ body{
     justify-content: center;
 }
 
-.porto-wrapper .photo img{
-    width: 300px;
+.porto-wrapper .photo img {
+    width: 150px;
     border-radius: 10px;
-    
 }
 
-.porto-wrapper .photo{
+.porto-wrapper .photo {
+    padding-top: 20px;
     background-color: white;
     text-align: center;
     border-radius: 10px;
-    margin: 0 10px;
-    padding: 5px 5px 15px 5px;
 }
 
-.porto-wrapper h3{
+.porto-wrapper h3 {
     font-size: 20px;
     font-weight: 600;
     font-family: sans-serif;
@@ -233,13 +228,14 @@ body{
     text-align: center;
     margin-left: 20px;
 }
+
 .porto-wrapper .photo span {
     font-size: 12px;
     font-style: italic;
 }
 
-.btn-wrapper{
-    margin: 10px 30px 0px 30px;
+.btn-wrapper {
+    margin: 10px 30px 0px;
     padding: 10px;
     text-align: center;
     display: flex;
@@ -248,439 +244,480 @@ body{
     cursor: pointer;
 }
 
-.btn-wrapper p{
+.btn-wrapper p {
     padding: 5px 15px;
     border-radius: 5px;
-    background-color: green;
-    color: black;
+    background-color: rgb(28, 37, 113);
+    color: white;
     font-family: var(--main-font);
 }
-.btn-wrapper p:hover{
+
+.btn-wrapper p:hover {
     background-color: grey;
 }
 
-
-/* SKILL */
-
-
-.skill-wrapper{
+.skill-wrapper {
     margin: 50px 80px;
 }
 
-.skill-wrapper .hardskil{
+.skill-wrapper .hardskil {
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-    
-}
-.skill-wrapper .hardskil img{
-    width: 100px;
-    text-align: center;
-}
-
-.skill-wrapper .container-roadmap{
-    margin-top: 90px;
-    display: flex;
-    justify-content: space-around   ;
-    flex-wrap: wrap;
-}
-
-.skill-wrapper .softskil{
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    cursor:no-drop;
-}
-.skill-wrapper .softskil li{
-    font-weight: 600;
-    color: var(--font-color);
-    font-size: 30px;
-    width: 250px;
-    text-align: left;
-    color: white;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.skill-wrapper .hardskil h1{
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
-    margin-top: 10px;
-}
-
-.roadmap{
-    margin: 0px 80px;
-    
-}
-
-.roadmap h1{
-    color: white;
-    font-size: 40px;
-}
-
- .roadmap img{
-    width: 600px;
-    margin-top: 50px;
-}
-
-
-@media screen and (max-width: 960px) {
-    
-
-    body{
-        margin:0;
-    }
-    #homePage .heading{
-        font-size: 15px;
-        text-align: center;
-    }
-    .greet-wrapper{
-        font-size: 30px;
-    }
-    #intro-button button{
-        left: 50%;
-
-    }
-
-        .navbar .navbar-wrapper{
-            border-radius: 5px; 
-            text-align: center;
-            padding: 10px;
-            width: 100%;
-            
-        }
-
-        .navbar .navbar-wrapper ul{
-            display: flex;
-            font-size: 12px;
-             margin-left:auto;
-          
-        }
-        .navbar .navbar-wrapper li{
-            list-style: none;
-            font-size: 12px;
-        }
-
-        .home-wrapper{
-            display: flex;
-            flex-wrap: wrap;
-            margin: 20px 20px;
-            justify-content: space-between;
-        }
-        .home-wrapper .content-left img{
-            width: 300px;
-        }
-        
-        .home-wrapper .content-left .home-icon i{
-            font-size: 40px;
-            width: 80px;
-            text-align: center;
-            color: black;
-            justify-content: center;
-        }
-        .home-wrapper .content-right{
-            max-width: 700px;
-            font-size: 14px;
-            color: var(--font-color);
-        }
-        .home-wrapper .content-right .resume{
-            display: flex;
-            justify-content:start;
-            gap: 100px;
-            margin-top: 30px;
-        }
-        .porto-wrapper{
-            display: flex;
-            gap: 40px;
-            margin:40px auto;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        
-        .porto-wrapper .photo img{
-            width: 250px;
-            border-radius: 10px;
-            
-        }
-        
-        .porto-wrapper .photo{
-            background-color: white;
-            text-align: center;
-            border-radius: 10px;
-            margin: 0 10px;
-            padding: 5px 5px 15px 5px;
-        }
-        
-        .porto-wrapper h3{
-            font-size: 15px;
-            font-weight: 600;
-            font-family: sans-serif;
-        }
-        .porto-wrapper .photo span {
-            font-size: 10px;
-            font-style: italic;
-        }
-        
-.skill-wrapper{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin: 0px 0px;
-    font-family: var(--main-font);
-
-}
-
-.skill-wrapper .hardskil{
-    padding: 20px;
-    border-radius: 5px;
-    width: 800px;
-    text-align: center;
-}
-.skill-wrapper .hardskil img{
-    width: 40px;
-    text-align: center;
-}
-
-.skill-wrapper .softskil li{
-    font-weight: 600;
-    color: var(--font-color);
-    font-size: 18px;
-    list-style: none;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    margin-top: 10px;
-    /* background-color: aliceblue; */
-    border-bottom: 2px black solid;
-}
-
-li {}
-
-.container-roadmap .roadmap{
-    margin: 0px 0px;
-    
-}
-
-
- .container-content .roadmap h1{
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.container-roadmap .roadmap img{
-    width: 300px;
-    margin-top: 20px;
-}
-    }
-
-@media screen and (max-width: 650px){
-
-        #homePage .heading{
-        font-size: 15px;
-        text-align: center;
-        }
-   
-
-        .navbar .navbar-wrapper{
-            border-radius: 5px; 
-            text-align: center;
-            padding: 10px;
-            width: 100%;
-            display: none;
-        }
-        .navbar .show-nav{
-            display: flex;
-            justify-content: space-around;
-            position: relative;
-            width: 100%;
-            background-color: rgb(0, 128, 47);
-            background-image: url(../images/topography.png);
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 2px 2px 2px 2px black;
-        }
-        .navbar .show-nav .show-title{
-            background-color: rgb(0, 128, 47);
-            padding: 10px;
-            border-radius: 5px;
-            font-family: var(--main-font);
-            font-weight: bold;
-            color: white;
-        }
-        .navbar .show-nav .menu-toggle{
-            display: block;
-            position: relative;
-            z-index: 2;
-            color: white;
-        }
-
-    
-        .navbar .menu-wrapper.active{
-            position: relative;
-            display: block;
-            width: 100%;
-            margin-bottom: 10px; 
-        }
-        .navbar .menu-wrapper ul{
-            padding: 10px 50px;
-            text-align: left;
-            list-style: none;
-            width: 60%;
-            height: 250px;
-            margin:0;
-        }
-        .navbar .menu-wrapper ul li{
-            margin-top: 10px;
-            width: 150px;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .navbar .menu-wrapper ul li a{
-            font-weight: bold;
-            font-family: var(--main-font);
-            color: white;
-        }
-        .navbar .navbar-wrapper ul{
-            display: flex;
-            font-size: 12px;
-             margin-left:auto;
-          
-        }
-        .navbar .navbar-wrapper li{
-            list-style: none;
-            font-size: 12px;
-        }
-
-        .home-wrapper{
-            display: flex;
-            flex-wrap: wrap;
-            margin: 20px 20px;
-            justify-content: space-between;
-        }
-        .home-wrapper .content-left img{
-            width: 300px;
-        }
-        
-        .home-wrapper .content-left .home-icon i{
-            font-size: 40px;
-            width: 80px;
-            text-align: center;
-            color: black;
-            justify-content: center;
-        }
-        .home-wrapper .content-right{
-            max-width: 700px;
-            font-size: 14px;
-            color: var(--font-color);
-        }
-        .porto-wrapper{
-            display: flex;
-            gap: 40px;
-            margin:  20px auto;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        
-        .porto-wrapper .photo img{
-            width: 250px;
-            border-radius: 10px;
-            
-        }
-        
-        .porto-wrapper .photo{
-            background-color: white;
-            text-align: center;
-            border-radius: 10px;
-            margin: 0 10px;
-            padding: 5px 5px 15px 5px;
-        }
-        
-        .porto-wrapper h3{
-            font-size: 15px;
-            font-weight: 600;
-            font-family: sans-serif;
-        }
-        .porto-wrapper .photo span {
-            font-size: 10px;
-            font-style: italic;
-        }
-        
-
-#skill{
-    margin: auto;
-}
-.skill-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0px;
-    font-family: var(--main-font);
-    width: 100%;
-    cursor: no-drop;
-}
-
-.skill-wrapper .container-roadmap .softskil li{
-    
-}
-
-.skill-wrapper .container-roadmap{
-    margin-top: 0px;
-    display: flex;
-    justify-content: space-around   ;
-    flex-wrap: wrap;
-}
-
- .container-roadmap .roadmap h1{
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.container-roadmap .roadmap img{
-    width: 300px;
-    margin-top: 20px auto;
-    
-}
-.greet-wrapper {
-    width: 300px;
-    font-weight: bold;
-    font-size: 25px;
-    color: var(--font-color);
-}
-
-.sosmed {
-    font-size: 40px;
-    display: none;
     gap: 20px;
+}
+
+.skill-wrapper .hardskil img {
+    width: 60px;
+    text-align: center;
+}
+
+.skill-wrapper .container-roadmap {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.skill-wrapper .softskil {
+    text-align: center;
+    display: flex;
+    cursor: no-drop;
+    flex-flow: row wrap;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-wrapper .softskil li {
+    font-weight: 600;
+    width: 250px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.skill-wrapper .hardskil h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+}
+
+.roadmap {
+    margin: 0px 80px;
+}
+
+.roadmap h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.roadmap img {
+    width: 400px;
     margin-top: 50px;
 }
-.sosmed a{
-    color: var(--font-color);
+
+section {
+    /* margin-top: 50px; */
+    overflow: hidden;
 }
 
-#intro-button button{
+.content-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-icon {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+    justify-content: flex-end;
+}
+
+section#homePage {
+    background-color: rgba(95, 158, 160, 0.57);
+    /* padding: 20px; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+section#skill {
+    background-color: #5f9ea091;
     padding: 10px;
-    border-radius: 5px;
-    font-size: 20px;
-    display: none;
-    font-weight: 400;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-.sosmed-wrapper{
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    margin-bottom: 70px;
 }
 
-    
+.navbar-wrapper {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        margin: 0px;
+        padding: 0;
+    }
+
+    #homePage .heading {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .greet-wrapper {
+        font-size: 30px;
+    }
+
+    #intro-button button {
+        left: 50%;
+    }
+
+    .navbar .navbar-wrapper {
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .navbar .navbar-wrapper ul {
+        display: flex;
+        font-size: 12px;
+        margin-left: auto;
+    }
+
+    .navbar .navbar-wrapper li {
+        list-style: none;
+        font-size: 12px;
+    }
+
+    .home-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        justify-content: space-around;
+    }
+
+    .home-wrapper .content-left img {
+        width: 300px;
+    }
+
+    .home-wrapper .content-left .home-icon i {
+        font-size: 40px;
+        width: 80px;
+        text-align: center;
+        color: black;
+        justify-content: center;
+    }
+
+    .home-wrapper .content-right {
+        max-width: 700px;
+        font-size: 14px;
+        color: var(--font-color);
+    }
+
+    .home-wrapper .content-right .resume {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 30px;
+    }
+
+    .porto-wrapper {
+        display: flex;
+        gap: 40px;
+        margin: 40px auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .porto-wrapper .photo img {
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .porto-wrapper .photo {
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin: 0px 10px;
+        padding: 5px 5px 15px;
+    }
+
+    .porto-wrapper h3 {
+        font-size: 15px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+
+    .porto-wrapper .photo span {
+        font-size: 10px;
+        font-style: italic;
+    }
+
+    .skill-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0px;
+        font-family: var(--main-font);
+    }
+
+    .skill-wrapper .hardskil {
+        padding: 20px;
+        border-radius: 5px;
+        width: 800px;
+        text-align: center;
+    }
+
+    .skill-wrapper .hardskil img {
+        width: 40px;
+        text-align: center;
+    }
+
+    .skill-wrapper .softskil li {
+        font-weight: 600;
+        font-size: 18px;
+        list-style: none;
+        text-align: center;
+        color: white;
+        padding: 10px;
+        margin-top: 10px;
+        border-bottom: 2px solid black;
+    }
+
+    li {
+    }
+
+    .container-roadmap .roadmap {
+        margin: 0px;
+    }
+
+    .container-content .roadmap h1 {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .container-roadmap .roadmap img {
+        width: 300px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #homePage .heading {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .navbar .navbar-wrapper {
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        display: none;
+    }
+
+    .navbar .show-nav {
+        display: flex;
+        position: relative;
+        width: 100%;
+        background-color: rgba(95, 158, 160, 0.57);
+        background-image: url("../images/topography.png");
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: black 2px 2px 2px 2px;
+        justify-content: space-around;
+    }
+
+    .navbar .show-nav .show-title {
+        background-color: rgb(28, 37, 113);
+        padding: 10px;
+        border-radius: 5px;
+        font-family: var(--main-font);
+        font-weight: bold;
+        color: white;
+    }
+
+    .navbar .show-nav .menu-toggle {
+        display: block;
+        position: relative;
+        z-index: 2;
+        color: white;
+    }
+
+    .navbar .menu-wrapper.active {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .navbar .menu-wrapper ul {
+        padding: 10px 50px;
+        text-align: left;
+        list-style: none;
+        width: 60%;
+        height: 250px;
+        margin: 0px;
+    }
+
+    .navbar .menu-wrapper ul li {
+        margin-top: 10px;
+        width: 150px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .navbar .menu-wrapper ul li a {
+        font-weight: bold;
+        font-family: var(--main-font);
+        color: white;
+    }
+
+    .navbar .navbar-wrapper ul {
+        display: flex;
+        font-size: 12px;
+        margin-left: auto;
+    }
+
+    .navbar .navbar-wrapper li {
+        list-style: none;
+        font-size: 12px;
+    }
+
+    .home-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        /* margin: 20px; */
+        justify-content: center;
+    }
+
+    .home-wrapper .content-left img {
+        width: 300px;
+    }
+
+    .home-wrapper .content-left .home-icon i {
+        font-size: 40px;
+        width: 80px;
+        text-align: center;
+        color: black;
+        justify-content: center;
+    }
+
+    .home-wrapper .content-right {
+        max-width: 700px;
+        font-size: 14px;
+        color: var(--font-color);
+    }
+
+    .porto-wrapper {
+        display: flex;
+        gap: 40px;
+        margin: 20px auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .porto-wrapper .photo img {
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .porto-wrapper .photo {
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin: 0px 10px;
+        padding: 5px 5px 15px;
+    }
+
+    .porto-wrapper h3 {
+        font-size: 15px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+
+    .porto-wrapper .photo span {
+        font-size: 10px;
+        font-style: italic;
+    }
+
+    #skill {
+        margin: auto;
+    }
+
+    .skill-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        font-family: var(--main-font);
+        width: 100%;
+        cursor: no-drop;
+    }
+
+    .skill-wrapper .container-roadmap .softskil li {
+    }
+
+    .skill-wrapper .container-roadmap {
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .container-roadmap .roadmap h1 {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .container-roadmap .roadmap img {
+        width: 300px;
+    }
+
+    .greet-wrapper {
+        width: 300px;
+        font-weight: bold;
+        font-size: 25px;
+        color: var(--font-color);
+    }
+
+    .sosmed {
+        font-size: 40px;
+        display: none;
+        gap: 20px;
+        margin-top: 50px;
+    }
+
+    .sosmed a {
+        color: var(--font-color);
+    }
+
+    #intro-button button {
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        display: none;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .sosmed-wrapper {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+    }
 }
