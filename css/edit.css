@@ -516,6 +516,14 @@ section#skill {
         font-size: 15px;
         text-align: center;
     }
+    .skill-wrapper .hardskil {
+        padding: 20px;
+        border-radius: 5px;
+        width: 400px;
+        text-align: center;
+        display:flex;
+        flex-wrap:wrap;
+    }
 
     .navbar .navbar-wrapper {
         border-radius: 5px;
