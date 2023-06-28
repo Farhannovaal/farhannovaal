@@ -728,6 +728,15 @@ section#skill {
         top: 60%;
         transform: translate(-50%, -50%);
     }
+    #rocket{
+        background: url(../images/rocket.png);
+        width: 214px;
+        height: 71px;
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 0;
+    }
 }
 
 
@@ -742,8 +751,8 @@ section#skill {
 
 #rocket {
     background: url(../images/rocket.png);
-    width: 414px;
-    height: 142px;
+    width: 214px;
+    height: 71px;
     position: absolute;
     z-index: -1;
     bottom: 0;
@@ -756,8 +765,8 @@ section#skill {
     height: 30px;
     position: absolute;
     z-index: -1;
-    bottom: 10%;
-    left: 20%;
+    bottom: 0%;
+    left: 40%;
 }
 #Moon {
     background: url(../images/moon.png);

@@ -32,7 +32,7 @@
 		duration:1000
 	  }),
 	   Velocity(manJump,{
-		top:425,
+		top:400,
 	  },{
 		queue:false,
 		delay:17000,
