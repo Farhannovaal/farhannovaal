@@ -1,81 +1,47 @@
 
-  function callMenu() {
-	$(".navbar").velocity("transition.slideLeftIn", {
-	  stagger: 250
-	});
+	const rocket = document.querySelector('#rocket');
+	const manJump = document.querySelector('#man-jump');
   
-	$(".navbar-wrapper ul li a").off("click").click(function(event){
-	  event.preventDefault();
-	  $(this).parent("li").addClass("active").siblings().removeClass("active");
+	function animate() {
+	  Velocity(rocket, {
+		top: '50px',
+		// left: '40%',
+		rotateZ: '5deg'
+	  }, {
+		duration: 7000
+	  }),
+
+	  Velocity(rocket,{
+		// left:'40%',
+		rotateZ:'15deg'
+	  },{
+		duration:7000
+	  }),
+	  Velocity(rocket,{
+		left:'40%',
+		rotateZ:'30deg'
+	  },{
+		duration:7000
+	  }),
+
+
+	  Velocity(manJump,{
+		opacity:1
+	  },{
+		delay:13000,
+		duration:1000
+	  }),
+	   Velocity(manJump,{
+		top:455,
+	  },{
+		queue:false,
+		delay:17000,
+		duration:12000
+	  })
+	}
   
-	  var hrefString = $(this).attr("href");
+	animate();
   
-	  if (hrefString == "active") {
-		// Tidak ada tindakan yang diambil jika item menu sudah aktif
-	  } else {
-		// Fokuskan scroll ke konten yang sesuai
-		var targetContent = $("#" + hrefString);
-		if (targetContent.length > 0) {
-		  $("html, body").animate({
-			scrollTop: targetContent.offset().top
-		  }, 1000);
-		}
-	  }
-	});
+	console.log('Velocity function called');
+
   
-	$(".menu-wrapper ul li a").off("click").click(function(event){
-	  event.preventDefault();
-	  $(this).parent("li").addClass("active").siblings().removeClass("active");
-  
-	  var hrefString = $(this).attr("href");
-  
-	  if (hrefString == "active") {
-		location.reload();
-	  } else {
-		// Fokuskan scroll ke konten yang sesuai
-		var targetContent = $("#" + hrefString);
-		if (targetContent.length > 0) {
-		  $("html, body").animate({
-			scrollTop: targetContent.offset().top
-		  }, 1000);
-		}
-	  }
-	});
-  }
-  
-
-function homePage(){
-	$("#homePage .heading").velocity("transition.flipYIn", {duration:1000});
-	$("#homePage .content-left").velocity("transition.slideUpIn", {duration:1000});
-	$("#homePage .content-right").velocity("transition.slideDownIn", {duration:1000});
-}
-
-function portofolio(){
-	$("#portofolio").velocity("transition.slideUpIn",{ duration: 100 });
-			
-};
-
-function skill(){
-	$(".hardskil span").velocity("transition.slideLeftIn",{stagger:250});
-	$(".roadmap").velocity("transition.flipYIn",{stagger:250});
-	$(".softskil li").velocity("transition.slideRightIn",{stragger:250});
-}
-
-
-
-
-let toggleMenu = document.querySelector('.menu-toggle');
-let menuWrap = document.querySelector('.menu-wrapper');
-
-// toggle function/
-toggleMenu.addEventListener('click', function(){
-    if(menuWrap.classList.contains("active")){
-        menuWrap.classList.remove("active");
-    } else {
-        menuWrap.classList.add("active");
-    }
-});
-
-
-//  AJAX REFRESH
-
