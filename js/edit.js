@@ -1,7 +1,7 @@
 
 	const rocket = document.querySelector('#rocket');
 	const manJump = document.querySelector('#man-jump');
-	const moon = document.querySelector('Moon');  
+	const moon = document.querySelector('#Moon');  
 	function animate() {
 	  Velocity(rocket, {
 		top: '50px',
@@ -39,7 +39,7 @@
 		duration:12000
 	  }),
 
-	  Velocity(Moon,{
+	  Velocity(moon,{
 		left:'35%'
 	  },{
 		duration:12000
