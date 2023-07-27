@@ -1,6 +1,6 @@
 ### <h1 align="center">Hi there 👋, welcome to my home.</h1>
 
-<h2 align="center">I am Farhan, a web developer. Nice to meet you; if you are interested, please contact me at:</h2>
+<h2 align="center">I am Farhan, a web developer and Software Quality Assurance. Nice to meet you; if you are interested, please contact me at:</h2>
 
 <div align="center" >
 <a href="https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox?          
@@ -11,7 +11,7 @@ compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBg
 
 
  
-<h2 align="center"> It's a language that supports my position as a Web Developer developer. </h2>
+<h2 align="center"> It's a language that supports my position </h2>
 
 
 
