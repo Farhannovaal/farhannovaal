@@ -11,7 +11,7 @@ compose=GTvVlcSMTFMtzBTwPNpZgVCVgThdRNdqPCZJBPbpWTKSRPBfdXQMQHhnBWfSWjVGCztlZZBg
 
 
  
-<h2 align="center"> It's a language that supports my position as a front-end developer. </h2>
+<h2 align="center"> It's a language that supports my position as a Web Developer developer. </h2>
 
 
 
