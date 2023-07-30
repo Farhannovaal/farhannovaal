@@ -51,3 +51,20 @@
 	console.log('Velocity function called');
 
   
+
+	const btnPublish = document.querySelector('.publish-btn.news');
+	const cardPopUp = document.querySelector('.card-popup');
+	const closePop = document.querySelector('.close');
+
+      btnPublish.addEventListener('click',function(){
+		cardPopUp.classList.add('active');
+	  })
+
+      closePop.addEventListener('click', function() {
+        cardPopUp.classList.remove('active');
+      });
+
+
+	  
+
+    
