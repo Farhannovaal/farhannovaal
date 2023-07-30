@@ -384,6 +384,10 @@ video {
     display: flex;
     justify-content: center;
     gap: 20px;
+
+}
+iframe {
+    width: 100%;
 }
 
 .skill-wrapper .hardskil img {
