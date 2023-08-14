@@ -13,21 +13,55 @@
     text-decoration: none;
 }
 
-body {
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* height: 100%; */
+    /* overflow: hidden; */
     background-color: rgb(28, 37, 113);
     font-family: var(--main-font);
-    background-image: url("../images/topography.svg");
+    /* background-image: url("../images/topography.svg"); */
     background-size: cover;
+  }
+
+  
+
+
+.content-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.greet-wrapper {
-    font-size: 50px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--font-color);
+.home-icon {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+    justify-content: flex-end;
 }
+
+section{
+    margin-bottom:200px;
+}
+
+
+section#homePage {
+    background-color: rgba(95, 158, 160, 0.57);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+section#skill {
+    background-color: rgba(95, 158, 160, 0.57);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
 
 .head-name {
     text-align: center;
@@ -146,22 +180,6 @@ section#newUpdate {
     height:80px;
 }
 
-#intro-button button {
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 20px;
-    display: none;
-    font-weight: 400;
-    margin-top: 10px;
-    border: none;
-    font-family: var(--main-font);
-    cursor: pointer;
-}
-
-#intro-button button:hover {
-    background-color: black;
-    color: white;
-}
 
 .sosmed-wrapper {
     display: flex;
@@ -453,40 +471,6 @@ iframe {
     z-index: 2;
     flex-direction: column;
     /* gap: 20px; */
-}
-
-section {
-    margin-top: 50px;
-    overflow: hidden;
-}
-
-.content-left {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.home-icon {
-    display: flex;
-    gap: 15px;
-    margin-top: 10px;
-    border-bottom: 2px solid white;
-    justify-content: flex-end;
-}
-
-
-section#homePage {
-    background-color: rgba(95, 158, 160, 0.57);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-section#skill {
-    background-color: rgba(95, 158, 160, 0.57);
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 70px;
 }
 
 .navbar-wrapper {
