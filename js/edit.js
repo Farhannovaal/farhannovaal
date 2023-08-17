@@ -31,7 +31,7 @@ function animate() {
 	});
 
 	Velocity(manJump, {
-		top: '310px'
+		top: '350px'
 	}, {
 		queue: false,
 		delay: 17000,
