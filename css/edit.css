@@ -16,15 +16,13 @@
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
-  /* height: 100%; */
-  /* overflow: hidden; */
   background-color: rgb(28, 37, 113);
   font-family: var(--main-font);
-  /* background-image: url("../images/topography.svg"); */
   background-size: cover;
+  list-style: none;
 }
 
 .content-left {
@@ -70,8 +68,6 @@ section#skill {
 .publish-btn.news {
   padding: 15px 65px;
   border-radius: 5px;
-  /* background-color: rgb(255, 250, 250); */
-  /* color: black; */
   font-family: var(--main-font);
 }
 
@@ -105,48 +101,49 @@ section#skill {
   list-style: none;
   font-size: 18px;
 }
+
 .content-wrapper {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+
 i.bx.bx-x-circle.close {
   font-size: 35px;
-  /* float: right; */
   cursor: pointer;
 }
+
 .card-popup {
   background-color: white;
   margin: 50px;
   padding: 20px;
   border-radius: 5px;
-  /* text-align: center; */
   display: none;
   flex-direction: column;
   gap: 30px;
 }
+
 .download:hover {
   background-color: grey;
 }
+
 .download {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: #4caf50;
+  background-color: rgb(76, 175, 80);
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
-  /* color: white; */
 }
 
 .bahan-planning {
-  background: url(../images/bahanplanning.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("../images/bahanplanning.png") 0% 0% / cover no-repeat;
   height: 400px;
   position: relative;
 }
+
 section#newUpdate {
   width: 60%;
   height: 400px;
@@ -156,7 +153,9 @@ section#newUpdate {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0px);
+  border-radius: 10px;
 }
+
 .info-new {
   background-color: rgba(0, 0, 0, 0.32);
   padding: 10px;
@@ -172,6 +171,7 @@ section#newUpdate {
   transform: translate(-50%, -50%);
   display: flex;
 }
+
 .tools img {
   width: 80px;
   height: 80px;
@@ -186,6 +186,7 @@ section#newUpdate {
   top: 60%;
   transform: translate(-50%, -50%);
 }
+
 .title-project {
   text-align: center;
 }
@@ -300,6 +301,7 @@ section#newUpdate {
   flex-direction: column;
   gap: 30px;
 }
+
 .download a {
   color: white;
 }
@@ -308,6 +310,7 @@ video {
   width: 100%;
   height: auto;
 }
+
 .home-wrapper .content-right .resume {
   display: flex;
   justify-content: center;
@@ -399,6 +402,7 @@ video {
   justify-content: center;
   gap: 20px;
 }
+
 iframe {
   width: 100%;
 }
@@ -454,18 +458,48 @@ iframe {
   width: 400px;
   margin-top: 50px;
 }
+
 .card-popup.active {
   display: flex;
   position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-55%, -20%);
-  /* filter: blur(5px); */
   width: 80%;
   padding: 50px;
   z-index: 2;
   flex-direction: column;
-  /* gap: 20px; */
+}
+
+.experienceWork {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.course h3 {
+  text-align: center;
+}
+#experience h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.experienceWork ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px;
+}
+.experienceWork ul h3 {
+  text-align: center;
+}
+
+section#experience {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .navbar-wrapper {
@@ -576,10 +610,9 @@ iframe {
   .skill-wrapper {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     margin: 0px;
     font-family: var(--main-font);
-    flex-direction: row;
   }
 
   .skill-wrapper .hardskil {
@@ -635,6 +668,7 @@ iframe {
   .head-name {
     z-index: 2;
   }
+
   .skill-wrapper .hardskil {
     padding: 20px;
     border-radius: 5px;
@@ -651,10 +685,12 @@ iframe {
     width: 100%;
     display: none;
   }
+
   .parent-img {
     background: url("../images/12.png") 0% 0% / cover no-repeat;
     height: 100%;
     position: relative;
+    border-radius: 10px;
   }
 
   section#newUpdate {
@@ -667,6 +703,7 @@ iframe {
     left: 50%;
     transform: translate(-50%, 0px);
   }
+
   .btn-wrapper.news {
     position: absolute;
     left: 40%;
@@ -674,6 +711,7 @@ iframe {
     transform: translate(-50%, -50%);
     display: flex;
   }
+
   .navbar .show-nav {
     display: flex;
     position: relative;
@@ -747,6 +785,7 @@ iframe {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .skill-wrapper .container-roadmap {
     display: flex;
     justify-content: center;
@@ -803,8 +842,9 @@ iframe {
     font-size: 10px;
     font-style: italic;
   }
+
   .parent-img {
-    background: url(../images/12.png) 0% 0% / cover no-repeat;
+    background: url("../images/12.png") 0% 0% / cover no-repeat;
     height: 100%;
     position: relative;
   }
