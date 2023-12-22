@@ -9,20 +9,18 @@
 }
 
 * {
-  margin: 0px;
-  padding: 0px;
   text-decoration: none;
+  list-style: none;
 }
 
 html,
 body {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
   background-color: rgb(28, 37, 113);
   font-family: var(--main-font);
   background-size: cover;
-  list-style: none;
+  width: 100%;
+  /* overflow: hidden; Menonaktifkan scrolling */
+  /* touch-action: none; */
 }
 
 .content-left {
@@ -49,6 +47,8 @@ section#homePage {
   flex-direction: column;
   width: 100%;
   height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 section#skill {
@@ -56,6 +56,7 @@ section#skill {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 70px;
+  text-align: center;
 }
 
 .head-name {
@@ -474,7 +475,19 @@ iframe {
 .experienceWork {
   display: flex;
   flex-flow: column wrap;
+  text-align: center;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  list-style: none;
 }
 
 .course h3 {
