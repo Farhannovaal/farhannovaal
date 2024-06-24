@@ -478,7 +478,7 @@ iframe {
   display: flex;
   flex-flow: column wrap;
   text-align: left;
-  width: 500px;
+  width: 520px;
 }
 
 .course {
@@ -491,7 +491,7 @@ iframe {
   padding: 0;
   gap: 20px;
   list-style: none;
-  width: 500px;
+  width: 520px;
 }
 
 .course h3 {
