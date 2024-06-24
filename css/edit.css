@@ -303,6 +303,7 @@ section#newUpdate {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  text-align: justify;
 }
 
 .download a {
@@ -477,7 +478,7 @@ iframe {
 .experienceWork {
   display: flex;
   flex-flow: column wrap;
-  text-align: left;
+  text-align: justify;
   width: 520px;
 }
 
@@ -486,16 +487,15 @@ iframe {
   flex-flow: column wrap;
   /* justify-content: center; */
   /* align-items: center; */
-  text-align: left;
+  text-align: justify;
   margin: 0;
   padding: 0;
-  gap: 20px;
   list-style: none;
   width: 520px;
 }
 
 .course h3 {
-  text-align: left;
+  text-align: center;
 }
 
 #experience h2 {
@@ -505,7 +505,7 @@ iframe {
 }
 
 .experienceWork ul h3 {
-  text-align: left;
+  text-align: center;
   font-size: 20px;
 }
 
@@ -699,7 +699,7 @@ section#experience {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: left;
+    text-align: align;
     margin: 0;
     padding: 30px;
     gap: 20px;
