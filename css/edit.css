@@ -52,7 +52,7 @@ section#homePage {
 }
 
 section#skill {
-  background-color: rgba(95, 158, 160, 0.57);
+  /* background-color: rgba(95, 158, 160, 0.57); */
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 70px;
