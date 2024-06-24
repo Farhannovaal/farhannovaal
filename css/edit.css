@@ -705,6 +705,10 @@ section#experience {
     gap: 20px;
   }
 
+  .experienceWork {
+    padding: 30px;
+  }
+
   .head-name {
     z-index: 2;
   }
