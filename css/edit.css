@@ -475,15 +475,15 @@ iframe {
 .experienceWork {
   display: flex;
   flex-flow: column wrap;
-  text-align: center;
+  text-align: left;
 }
 
 .course {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: left;
   margin: 0;
   padding: 0;
   gap: 20px;
@@ -491,25 +491,22 @@ iframe {
 }
 
 .course h3 {
-  text-align: center;
+  text-align: left;
 }
 #experience h2 {
-  text-align: center;
+  padding-left: 35px;
+  text-align: left;
   margin-bottom: 20px;
 }
 
-.experienceWork ul {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 50px;
-}
 .experienceWork ul h3 {
-  text-align: center;
+  text-align: left;
+  font-size: 20px;
 }
 
 section#experience {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   color: white;
   flex-wrap: wrap;
   gap: 50px;
@@ -676,6 +673,17 @@ section#experience {
   #homePage .heading {
     font-size: 15px;
     text-align: center;
+  }
+
+  .course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
   }
 
   .head-name {
