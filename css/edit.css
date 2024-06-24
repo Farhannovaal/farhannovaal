@@ -295,6 +295,11 @@ section#newUpdate {
   color: white;
 }
 
+.btn-wrapper a[disabled] {
+  pointer-events: none;
+  color: grey;
+  text-decoration: none;
+}
 .home-wrapper .content-right {
   max-width: 700px;
   font-size: 14px;
