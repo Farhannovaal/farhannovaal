@@ -483,7 +483,7 @@ iframe {
 
 .course {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   /* justify-content: center; */
   /* align-items: center; */
   text-align: left;
@@ -497,9 +497,10 @@ iframe {
 .course h3 {
   text-align: left;
 }
+
 #experience h2 {
   padding-left: 35px;
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
