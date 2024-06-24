@@ -154,6 +154,7 @@ section#newUpdate {
   left: 50%;
   transform: translate(-50%, 0px);
   border-radius: 10px;
+  margin-top: 30px;
 }
 
 .info-new {
@@ -477,6 +478,7 @@ iframe {
   display: flex;
   flex-flow: column wrap;
   text-align: left;
+  width: 500px;
 }
 
 .course {
@@ -489,6 +491,7 @@ iframe {
   padding: 0;
   gap: 20px;
   list-style: none;
+  width: 500px;
 }
 
 .course h3 {
@@ -510,7 +513,7 @@ section#experience {
   /* justify-content: space-around; */
   color: white;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 300px;
 }
 
 .navbar-wrapper {
@@ -660,13 +663,20 @@ section#experience {
     font-size: 15px;
     font-weight: bold;
     color: white;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     text-align: center;
   }
 
   .container-roadmap .roadmap img {
     width: 300px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+  }
+  section#experience {
+    display: flex;
+    /* justify-content: space-around; */
+    color: white;
+    flex-wrap: wrap;
+    gap: 50px;
   }
 }
 
@@ -676,6 +686,13 @@ section#experience {
     text-align: center;
   }
 
+  section#experience {
+    display: flex;
+    /* justify-content: space-around; */
+    color: white;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
   .course {
     display: flex;
     flex-direction: column;
