@@ -1,6 +1,6 @@
 ### <h1 align="center">Hi there 👋, welcome to my home...</h1>
 
-<h2 align="center">I am Farhan, a web developer,  Nice to meet you :</h2>
+<h2 align="center">I am Farhan, a fullstack developer,  Nice to meet you :</h2>
 
 <div align="center" >
 <a href="https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox?          
